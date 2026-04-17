@@ -1,0 +1,26 @@
+
+# 2. Cria o arquivo e já adiciona as regras principais de uma vez
+cat <<EOF > .gitignore
+# Binários e Executáveis
+**/*.exe
+**/*.out
+**/*.o
+**/*.obj
+
+# Pastas de saída
+**/output/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Sistema
+.DS_Store
+Thumbs.db
+EOF
