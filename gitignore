@@ -1,6 +1,8 @@
+
 *.exe
 *.out
-*.o
-*.json
-.json
-/build/
+
+**/output/
+bin/
+
+.vscode/
