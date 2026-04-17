@@ -28,5 +28,5 @@ int main(){
 
 pessoa p[3] = {{"ana", 20, NULL}, {"ze", 22, NULL}, {"bia", 18, NULL}};
 p[0].prox = &p[1];p[1].prox = &p[2];
-printf("%d", maiores(&p[0]));
+printf("%d\n", maiores(&p[0]));
 }

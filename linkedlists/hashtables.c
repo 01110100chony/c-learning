@@ -69,8 +69,8 @@ print_hashtable(); //printa hash
 
 printf("\n\n");
 
-Pessoa p = {.nome ="joao", .idade =202};
-Pessoa p1 = {.nome ="jose", .idade =2150};
+Pessoa p = {.nome ="joao", .idade =202556};
+Pessoa p1 = {.nome ="jose", .idade =210};
 Pessoa p2 = {.nome ="joabe", .idade =230};
 Pessoa p3 = {.nome ="jagunco", .idade =20};
 Pessoa p4 = {.nome ="jiboia", .idade =20022};
